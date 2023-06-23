@@ -6,7 +6,13 @@ An AI model that detect real-time water area and water level for further purpose
 
 In this project, I trained a YOLOv8n custom model on [this](https://www.kaggle.com/datasets/gvclsu/water-segmentation-dataset) dataset on Kaggle, as well as the ones I labeled myself using Roboflow's help, to make the model able to detect water in an image/video. 
 
-Once the model is ready, some additional information needs to be provided to measure the water level: The line's tips coordinates that are perpendicular with the water surface, number of pixels in a real-life meter, the tip's real height, and the water level that may trigger a warning.
+Once the model is ready, some additional information needs to be provided to measure the water level: The line's 2 tips coordinates that are perpendicular with the water surface. This is crucial to calculate the water level.
+
+![Technical Approach](https://github.com/duchieu260503/Flood-detection/blob/main/Technical%20approach.JPG)
+
+Additionally, the number of pixels in a real-life meter, the tip's real height, and the water level that may trigger a warning.
+
+![Calculate distance](https://github.com/duchieu260503/Flood-detection/blob/main/Calculate%20distance.JPG)
 
 The result can be displayed while the program is running, as well as an output video is saved on the local machine.
 
