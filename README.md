@@ -12,8 +12,6 @@ Once the model is ready, some additional information needs to be provided to mea
 
 Additionally, the number of pixels in a real-life meter, the tip's real height, and the water level that may trigger a warning.
 
-![Calculate distance](https://github.com/duchieu260503/Flood-detection/blob/main/Calculate%20distance.JPG)
-
 The result can be displayed while the program is running, as well as an output video is saved on the local machine.
 
 ## Getting Started
@@ -24,7 +22,31 @@ Use [this](https://github.com/ultralytics/ultralytics/blob/main/requirements.txt
 
 ### Installing
 
+Locate to your workspace folder using -cd command then type: 
+```
+$ git clone https://github.com/duchieu260503/Flood-detection.git
+```
+Libraries used:
 
+- [Tkinter](https://docs.python.org/3/library/tkinter.html)
+
+- [PIL](https://pypi.org/project/Pillow/)
+
+- [Ultralytics](https://ultralytics.com/)
+
+- [Shapely](https://shapely.readthedocs.io/en/stable/index.html)
+
+- Array (Sort of)
+  
+To install all the libraries needed, provide:
+```
+pip install tk
+pip install ultralytics
+python3 -m pip install --upgrade pip
+python3 -m pip install --upgrade Pillow
+pip install shapely
+pip install array
+```
 
 ### Executing program
 
