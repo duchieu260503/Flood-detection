@@ -54,6 +54,7 @@ You can either run the program in your favourite code editor (VS Code, Jupyter N
 
 If you are running the code by command, locate the repository location then type:
 ```
+cd Flood-detection
 python main.py
 ```
 A GUI interface will pop-up and assist you with the launch of the program.
