@@ -24,7 +24,7 @@ Use [this](https://github.com/ultralytics/ultralytics/blob/main/requirements.txt
 
 Locate to your workspace folder using -cd command then type: 
 ```
-$ git clone https://github.com/duchieu260503/Flood-detection.git
+git clone https://github.com/duchieu260503/Flood-detection.git
 ```
 Libraries used:
 
