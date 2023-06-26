@@ -30,9 +30,7 @@ Libraries used:
 
 - [Tkinter](https://docs.python.org/3/library/tkinter.html)
 
-- [PIL](https://pypi.org/project/Pillow/)
-
-- [Ultralytics](https://ultralytics.com/)
+- [Ultralytics](https://ultralytics.com/) and its [requirements](https://github.com/ultralytics/ultralytics/blob/main/requirements.txt)
 
 - [Shapely](https://shapely.readthedocs.io/en/stable/index.html)
   
