@@ -8,7 +8,7 @@ In this project, I trained a YOLOv8n custom model on [this](https://www.kaggle.c
 
 Once the model is ready, some additional information needs to be provided to measure the water level: The line's 2 tips coordinates that are perpendicular with the water surface. This is crucial to calculate the water level.
 
-![Technical Approach]([https://github.com/duchieu260503/Flood-detection/blob/main/Technical%20approach.JPG](https://github.com/duchieu260503/Flood-detection/blob/main/media/Technical%20approach.JPG))
+![Technical Approach](https://github.com/duchieu260503/Flood-detection/blob/main/media/Technical%20approach.JPG)
 
 Additionally, the number of pixels in a real-life meter, the tip's real height, and the water level that may trigger a warning.
 
