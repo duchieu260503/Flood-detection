@@ -1,0 +1,7 @@
+# Ultralytics requirements
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+tk==0.1.0
+ultralytics==8.0.116
+shapely==2.0.1
