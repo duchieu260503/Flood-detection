@@ -1,7 +1,0 @@
-path: /content/drive/MyDrive/Colab Notebooks/Water Level 2.0/coco8-seg
-train: images/train  
-val: images/valid  
-test: images/test
-
-names: ['water']
-
