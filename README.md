@@ -8,7 +8,7 @@ In this project, I trained a YOLOv8n custom model on [this](https://www.kaggle.c
 
 Once the model is ready, some additional information needs to be provided to measure the water level: The line's 2 tips coordinates that are perpendicular with the water surface. This is crucial to calculate the water level.
 
-![Technical Approach](https://github.com/duchieu260503/Flood-detection/blob/main/Technical%20approach.JPG)
+![Technical Approach]([https://github.com/duchieu260503/Flood-detection/blob/main/Technical%20approach.JPG](https://github.com/duchieu260503/Flood-detection/blob/main/media/Technical%20approach.JPG))
 
 Additionally, the number of pixels in a real-life meter, the tip's real height, and the water level that may trigger a warning.
 
@@ -35,17 +35,10 @@ Libraries used:
 - [Ultralytics](https://ultralytics.com/)
 
 - [Shapely](https://shapely.readthedocs.io/en/stable/index.html)
-
-- Array (Sort of)
   
 To install all the libraries needed, provide:
 ```
-pip install tk
-pip install ultralytics
-python3 -m pip install --upgrade pip
-python3 -m pip install --upgrade Pillow
-pip install shapely
-pip install array
+pip install -r requirements.txt
 ```
 
 ### Executing program
@@ -59,11 +52,13 @@ python main.py
 ```
 A GUI interface will pop-up and assist you with the launch of the program.
 
-## Help
+## To be developed
 
 The program is still imperfect, as the model only works best with single-area per image, which means the model can not detect 2-or-more water areas in a single frame.
 
 Also, the intersections-calculating algorithms will pose some troubles when 2 or more intersections were found between the line and the annotation mask, so the line coordinates should be chosen carefully.
+
+This will be fixed and modified in future updates.
 
 ## Authors
 
