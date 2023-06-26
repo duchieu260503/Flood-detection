@@ -18,7 +18,7 @@ The result can be displayed while the program is running, as well as an output v
 
 ### Dependencies
 
-Use [this](https://github.com/ultralytics/ultralytics/blob/main/requirements.txt) requirements list in order to run YOLOv8 on the local machine.
+Tested on Python 3.11.3 and PIP 23.1.2
 
 ### Installing
 
@@ -34,7 +34,7 @@ Libraries used:
 
 - [Shapely](https://shapely.readthedocs.io/en/stable/index.html)
   
-To install all the libraries needed, provide:
+To install all the libraries needed, type:
 ```
 pip install -r requirements.txt
 ```
