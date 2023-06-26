@@ -48,6 +48,20 @@ python main.py
 ```
 A GUI interface will pop-up and assist you with the launch of the program.
 
+### Run example
+
+Once the GUI pop up, it will look like this:
+
+![GUI](https://github.com/duchieu260503/Flood-detection/blob/main/media/GUI.JPG)
+
+Then type exactly like the GUI's suggestions on every entry, and select the video in the media folder.
+
+The result will look something like this:
+
+![Result](https://github.com/duchieu260503/Flood-detection/blob/main/media/result.JPG)
+
+And another result video will be saved in the Flood-detection folder.
+
 ## To be developed
 
 The program is still imperfect, as the model only works best with single-area per image, which means the model can not detect 2-or-more water areas in a single frame.
