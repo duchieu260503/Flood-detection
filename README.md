@@ -36,16 +36,14 @@ Libraries used:
   
 To install all the libraries needed, type:
 ```
+cd Flood-detection
 pip install -r requirements.txt
 ```
 
 ### Executing program
 
 You can either run the program in your favourite code editor (VS Code, Jupyter Notebook, ...) or simply by command.
-
-If you are running the code by command, locate the repository location then type:
 ```
-cd Flood-detection
 python main.py
 ```
 A GUI interface will pop-up and assist you with the launch of the program.
