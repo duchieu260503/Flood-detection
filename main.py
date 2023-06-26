@@ -51,12 +51,12 @@ pixelsInAMeter_entry.pack(padx=10, pady=5)
 
 tipHeight_label = tk.Label(window, text="Enter the real-life height (meters) of the higher point in line:")
 tipHeight_label.pack()
-tipHeight_entry = EntryWithPlaceholder(window, placeholder="E.g: 7", bg="white", width=50, borderwidth=2)
+tipHeight_entry = EntryWithPlaceholder(window, placeholder="E.g: 15", bg="white", width=50, borderwidth=2)
 tipHeight_entry.pack(padx=10, pady=5)
 
 warningLevel_label = tk.Label(window, text="Enter the water level (meters) that triggers the warning:")
 warningLevel_label.pack()
-warningLevel_entry = EntryWithPlaceholder(window, placeholder="E.g: 5", bg="white", width=50, borderwidth=2)
+warningLevel_entry = EntryWithPlaceholder(window, placeholder="E.g: 10", bg="white", width=50, borderwidth=2)
 warningLevel_entry.pack(padx=10, pady=5)
 
 def select_video():
