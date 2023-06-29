@@ -58,9 +58,9 @@ Then type exactly like the GUI's suggestions on every entry, and select the vide
 
 The result will look something like this:
 
-![Result](https://github.com/duchieu260503/Flood-detection/blob/main/media/result.JPG)
+https://github.com/duchieu260503/Flood-detection/assets/16372230/06caea34-0932-4baf-b728-9829e7e2a004
 
-And another result video will be saved in the Flood-detection folder.
+And the result video will be saved in the Flood-detection folder.
 
 ## To be developed
 
